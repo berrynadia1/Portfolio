@@ -1,0 +1,110 @@
+body{
+   
+    background-color:black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a1afa;
+    border-radius: -5%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .resume-text{
+    font-family: 'Lobster', cursive;
+    color:wheat;
+    text-align: center;
+  }
+
+  .resume-image{
+    width:100%;
+    height:auto;
+    border:1px solid red;
+   margin-top: 5%;
+  }
+.resume-container{
+    color:wheat;
+    text-align: center;
+}
+.contact-text{
+    font-family: 'Lobster', cursive;
+    color:wheat;
+    text-align: center;
+}
+
+
+.contact-container{
+    padding: 20px;
+  }
+  
+  input[type="text"], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  input[type="submit"]{
+    background: #22253e;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 100px;
+    margin-left: 42%;
+    padding-right: 10px;
+    position: relative;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    width: 120px;
+  }
+  
+  input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+  }
+
+  
+
+
+  .fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 17%;
+  }
+  .copyright{
+        width:100%;
+        color: white;
+        margin-left: 42%;
+  }

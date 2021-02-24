@@ -1,0 +1,87 @@
+body{
+   
+    background-color:black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a1afa;
+    border-radius: -5%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.project-main img{
+    width:100%;
+    height:auto;
+    }
+   
+   .project-card{
+   border:1px solid red;
+   box-shadow: 5px 5px 5px blue;
+   margin:1em 1em 1.5em;
+   padding: 1em 1em 1.5em;
+   }
+   
+   .project-name{
+    font-family: 'Source Code Pro', monospace;
+    color: chartreuse;
+   }
+   
+   .project-description{
+    font-family: 'Lobster', cursive;
+   }
+   .project-button{
+    background: #22253e;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Lobster', cursive;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 100px;
+  padding-right: 10px;
+  position: relative;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  width: 120px;
+   }
+   .project-button:hover{
+      background: #3b406c;
+    }
+   
+   .fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 19%;
+  }
+  .copyright{
+        width:100%;
+        color: white;
+        margin-left: 44%;
+  }

@@ -1,0 +1,75 @@
+body{
+   
+    background-color:black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a1afa;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .main-hero{
+    background-image: url(/images/SlideImg2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  padding: 250px;
+  height: 100px;
+  background-position: center;
+  margin-bottom: 5%;
+  }
+
+ .main-text{
+text-align: center;
+font-family: 'Lobster Two', cursive;
+margin-top: 10%;
+color: crimson;
+ }
+ 
+ .home-content{
+    font-family: 'Permanent Marker', cursive;
+    color:cornsilk;
+    text-align: center;
+ }
+ .self{
+    width: 100%;
+    height: 400px;
+    background-image: url('/images/IMG_3110.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 37%;
+ }
+ 
+ .fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 19%;
+  }
+  .copyright{
+        width:100%;
+        color: white;
+        margin-left: 45%;
+  }
