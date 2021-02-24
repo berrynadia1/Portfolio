@@ -9,7 +9,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #0a1afa;
-    border-radius: -5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   li {
@@ -34,6 +36,7 @@ ul {
     font-family: 'Lobster', cursive;
     color:wheat;
     text-align: center;
+    margin-top: 10%;
   }
 
   .resume-image{
@@ -50,6 +53,7 @@ ul {
     font-family: 'Lobster', cursive;
     color:wheat;
     text-align: center;
+    margin-top: 10%;
 }
 
 

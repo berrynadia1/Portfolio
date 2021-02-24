@@ -9,8 +9,10 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #0a1afa;
-    border-radius: -5%;
-  }
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
   
   li {
     float: left;
@@ -40,6 +42,7 @@ ul {
    box-shadow: 5px 5px 5px blue;
    margin:1em 1em 1.5em;
    padding: 1em 1em 1.5em;
+   margin-top: 10%;
    }
    
    .project-name{
