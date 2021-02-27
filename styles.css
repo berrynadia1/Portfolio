@@ -9,7 +9,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #0a1afa;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
   }
@@ -33,6 +33,7 @@ ul {
   }
   .main-hero{
     background-image: url(/images/SlideImg2.jpg);
+    opacity: 30%;
     background-size:cover;
     background-repeat: no-repeat;
   padding: 250px;
@@ -44,8 +45,12 @@ ul {
  .main-text{
 text-align: center;
 font-family: 'Lobster Two', cursive;
-margin-top: 10%;
+/* margin-top: 10%; */
 color: crimson;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
  }
  
  .home-content{
@@ -59,7 +64,7 @@ color: crimson;
     background-image: url('/images/IMG_3110.jpeg');
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 37%;
+    margin-left: 39%;
  }
  
  .fab{
@@ -68,7 +73,7 @@ color: crimson;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin-left: 19%;
+    margin-left: 20%;
   }
   .copyright{
         width:100%;

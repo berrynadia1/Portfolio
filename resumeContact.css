@@ -40,10 +40,10 @@ ul {
   }
 
   .resume-image{
-    width:100%;
-    height:auto;
+    height: 600px;
+    width: 600px;
     border:1px solid red;
-   margin-top: 5%;
+   /* margin-top: 5%; */
   }
 .resume-container{
     color:wheat;
@@ -81,7 +81,7 @@ ul {
     height: 40px;
     line-height: 40px;
     margin-top: 100px;
-    margin-left: 42%;
+    /* margin-left: 42%; */
     padding-right: 10px;
     position: relative;
     text-align: center;
@@ -105,10 +105,10 @@ ul {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin-left: 17%;
+    margin-left: 20%;
   }
   .copyright{
         width:100%;
         color: white;
-        margin-left: 42%;
+        margin-left: 45%;
   }

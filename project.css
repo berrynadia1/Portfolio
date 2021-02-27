@@ -9,7 +9,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #0a1afa;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
 }
@@ -32,9 +32,16 @@ ul {
     background-color: #111;
   }
 
+  .project-header{
+    font-family: 'Lobster', cursive;
+    color:wheat;
+    text-align: center;
+    /* margin-top: 7%; */
+  }
+
 .project-main img{
     width:100%;
-    height:auto;
+    height:100%;
     }
    
    .project-card{
@@ -43,6 +50,9 @@ ul {
    margin:1em 1em 1.5em;
    padding: 1em 1em 1.5em;
    margin-top: 10%;
+   width:50%;
+   height:50%;
+   margin-left: 25%;
    }
    
    .project-name{
@@ -54,7 +64,7 @@ ul {
     font-family: 'Lobster', cursive;
    }
    .project-button{
-    background: #22253e;
+    background: whitesmoke;
   border: 0;
   border-radius: 5px;
   color: white;
@@ -81,10 +91,10 @@ ul {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin-left: 19%;
+    margin-left: 21%;
   }
   .copyright{
         width:100%;
         color: white;
-        margin-left: 44%;
+        margin-left: 47%;
   }
